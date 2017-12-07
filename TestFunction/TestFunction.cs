@@ -17,7 +17,7 @@ namespace TestFunction
             //string echo = TestService.Echo("Hello from Lib!");
             string echo = LibService.Echo("Hello from Lib!");
             
-            return request.CreateResponse(HttpStatusCode.OK, echo);
+            return request.CreateResponse(HttpStatusCode.OK, echo); 
         }
     }
 }
